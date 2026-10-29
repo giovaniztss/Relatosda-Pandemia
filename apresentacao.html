@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>Apresentação</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="layoutconvite.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Baloo+2:wght@500&family=Cormorant:ital,wght@1,300&family=Courier+Prime:ital@1&family=Special+Elite&display=swap" rel="stylesheet">	
+        <script>
+            function fecharModal()
+            {
+              document.getElementById('fundo').style.display = 'none';
+              document.getElementById('modal').style.display = 'none';
+            }
+            
+            function abrirModal()
+            {
+              document.getElementById('fundo').style.display = 'block';
+              document.getElementById('modal').style.display = 'block';
+            }
+            
+                </script>
+    </head>
+    <body>
+        <header class="cabecalho">
+            <div class="nome_exposicao">
+            <h1>Relatos da Pandemia</h1>
+            </div>
+            <nav>
+                <a href="index.html">Início</a>
+                <a href="convite.html">Convite</a>
+
+                <a href="apresentacao.html">Apresentação</a>
+                <a href="relatos.html">Relatos</a>
+                <a href="agradecimentos.html">Agradecimentos</a>
+
+                <a href="formulario.html">Formulário</a>
+                <a href="sobre.html">Sobre as autoras</a> 
+                <a href="referencias.html">Referências</a> 
+
+
+            </nav>
+        </header>
+        <article>
+            
+            <section class="termo">
+                <div class="texto_termo">
+                    <div id="introducao">
+                        <h2>Apresentação</h2>
+                    </div>
+                    <div id="texto">
+                        <p>A exposição foi organizada em dois segmentos.</p>
+                        <p>No primeiro segmento, apresentamos o lugar onde se desenvolveu a pesquisa. Partimos da ideia de escola, um lugar imaginado desde a Modernidade, até o lugar praticado, ou seja, o IFSul - Campus Charqueadas, lugar constituído de sentidos e significados.</p>
+                        <p>No segundo segmento, apresentamos as narrativas dos jovens-alunos participantes da pesquisa, cujos relatos nos fazem refletir sobre os efeitos da pandemia de Covid-19 sobre a tríade Juventude, Escola e Trabalho.</p>
+                    </div>
+                </div> 
+            </section>                                 
+            
+            <section class="thelinks">
+                <div class="objetivo">
+                    <a href="#" class="indexlinks" onclick="abrirModal();">Objetivo</a>
+                    <div id="fundo"></div>
+                    <div id="modal">
+                        <p class="pmodal">O objetivo geral da pesquisa visou analisar narrativas de jovens-alunos do curso Técnico em Mecatrônica do IFSul Campus Charqueadas sobre sentidos  atribuídos à juventude, escola e trabalho...</p>
+                        <a href="#" class="fechar" onclick="fecharModal();">voltar</a>
+                    </div> 
+                </div>
+            </section>  
+            <section class="thelinks">
+                <div class="letsgo">
+                    <a class="letsgo" href="relatos.html">Vamos entrar?</a>
+
+                </div>
+            </section>    
+        </article>
+    </body>
+</html>

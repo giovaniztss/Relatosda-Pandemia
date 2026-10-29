@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+    border: 0px;
+}
+body{	
+    background-image: url("imagens/newfundo1.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	margin: 0 2em 0 2em ;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  
+}
+article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.nomeExposicao{
+    font-family: Special Elite;
+	font-size: 4.3em;
+    text-align: center;
+}
+.linkApresentacao{
+    text-decoration: none;
+    font-size: 3em;
+    color: black;
+    font-family: Special Elite;
+    margin-top: 35px;
+
+}
+.linkApresentacao:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width: 600px)
+{   
+    body{
+        background-image: url("imagens/newfundo.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+    
+
+        margin: 0 0 0 0;
+    }
+    article{
+        width: 100%;
+        justify-content: flex-end;
+        padding: 1em;
+    }
+ 
+    .nomeExposicao{
+        font-family: Special Elite;
+        font-size: 3.5em;
+        text-align: center;
+        
+    }
+    .linkApresentacao{
+        font-size: 2.5em;
+        text-align: center;
+
+    
+    }
+
+
+}

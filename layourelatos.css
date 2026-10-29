@@ -1,0 +1,677 @@
+@font-face {
+	font-family: 'Architects Daughter', cursive;
+	font-family: 'Baloo 2', cursive;
+	font-family: 'Cormorant', serif;
+	font-family: 'Courier Prime', monospace;
+	font-family: 'Special Elite', cursive;
+		src: url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Baloo+2:wght@500&family=Cormorant:ital,wght@1,300&family=Courier+Prime:ital@1&family=Special+Elite&display=swap');
+}
+
+.credit{
+    font-size: x-small;
+    text-align:justify ;
+}
+.indexlinks{
+    text-decoration: none;
+    background-color: #E8F1F2;
+    border: 0.2em solid #E8F1F2;
+    color: black;
+    font-family: Special Elite;
+}*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+    border: 0px;
+}
+body{	
+    background-color: white;
+	margin: 0 2em 0 2em ;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+  
+}
+header{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: Special Elite;
+	background-color: #E8F1F2;
+    border-radius:0 0 1em 1em;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2), 0px 6px 20px 0px rgba(0,0,0,0.19);
+
+}
+header>div{
+    width: 100%;
+}
+header>div>h1{
+    font-size: 3.5em;
+    text-align: center;
+   
+}
+header>nav>a:link,header>nav>a:visited{
+	font-size: medium;
+    text-decoration: none;
+    color: #006494;
+    padding: 0.1em;
+    
+	 
+}
+header>nav>a:hover{
+    text-decoration: underline;
+    color: #006494;
+}
+header>nav{
+    width: 100%;
+	justify-content: space-around;
+	
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	text-decoration: none;
+}
+article{
+    width: 100%;
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+section{
+    margin-top: 1em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+
+footer{
+    width: 100%;
+    background-color: #D5D5D5;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+	border-radius: 1.2em 1.2em 0 0;
+    
+}
+#pfv{
+    width: 100%;
+}
+footer>div>p{
+    text-align: center;
+    font-family: Courier Prime;
+    font-size: large;
+    padding: 0em;
+    text-align: center;
+    font-size: small;
+}
+#ref{
+    margin-bottom: 1em;
+}
+#espaco{
+    width: 100%;
+    display: flex;
+    margin-top: 1em;
+    justify-content: center;
+    align-items: center;
+}
+#tituloTexto{
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+    justify-content: center;
+	align-items: center;
+    
+}
+#tituloTexto>p{
+    padding: 0.2em;
+    font-size: xx-large;
+    font-family: Special Elite;
+    background-color: #E8F1F2;
+    border-radius: 0%;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2), 0px 6px 20px 0px rgba(0,0,0,0.19);
+
+}
+#titulobotao{
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+    justify-content: center;
+	align-items: center;
+    
+}
+#titulobotao>p{
+    padding: 2em;
+   
+    border-radius: 0%;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2), 0px 6px 20px 0px rgba(0,0,0,0.19);
+
+}
+#quebraessalinha{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center   ;
+}
+#esq{
+    
+    width: 60%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	flex-wrap:wrap;
+
+}
+
+#dir{
+    margin-top: 1em;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    
+}
+.imgestarso{
+    padding: 5px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    text-align: center;
+    width: 332px;
+    max-height: 377.5px;
+    border-radius: 4px;
+}
+.imgtees{
+    width: 324px;
+    padding: 5px;
+
+    
+
+}
+.imgcorpo{
+    padding: 5px;
+    width: 360px;
+
+    max-height: 500px;
+    border-radius: 4px;
+    min-height: 20em;
+
+}
+.imgsunshine{
+    padding: 5px;
+    width: 234px;
+    max-height: 340px;
+    border-radius: 4px;
+    min-height: 20em;
+}
+.imgif{
+    width: 650px;
+    border-radius: 4px;
+    padding: 5px;
+    max-height: 30em;
+}
+.imggl{
+    width: 360px;
+
+    border-radius: 4px;
+    padding: 5px;
+    
+
+}
+.imgh{
+    min-width: 200px;
+    max-width: 500px;
+    max-height: 15em;
+    border-radius: 4px;
+    padding: 5px;
+    min-height: 20em;
+}
+#imagensrelatos{
+    width: 100% ;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#imagenssunshine{
+    margin-top: 1em;
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+    
+    #falas{
+        margin-top: 1em;
+        background-color: #E8F1F2;
+        width: 70%;
+        border-radius: 1.2em;   
+        padding: 10px;
+        box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2), 0px 6px 20px 0px rgba(0,0,0,0.19);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    
+    }
+    #aluno{
+        margin-top: 1em;
+        background-color: #E8F1F2;
+        width: fit-content;
+        border-radius: 1.2em;   
+        padding: 10px;
+        box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2), 0px 6px 20px 0px rgba(0,0,0,0.19);
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    h2.detail{
+        font-size: xx-large;
+        padding: 1em;
+        font-family: Special Elite;
+        width: fit-content;
+        background-color: #E8F1F2;
+        box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2), 0px 6px 20px 0px rgba(0,0,0,0.19);
+    
+    }
+    #segunda__parte{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        text-align: center;
+    }
+    #esq>p{
+        text-align: justify;
+        text-indent: 0.8em;
+        font-size: large;
+        color: black;
+        width: 95%;
+        font-family: Courier Prime;
+        margin-right: 0.5em;
+        padding: 0.8em;
+        margin-top: 0.5em;
+        background-color: #E8F1F2;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 0.2em;
+    
+    }
+#avatar{
+        border-radius: 50%;
+        width:5em;
+        height: 5em;
+    }
+
+#esq>p{
+    text-align: justify;
+    text-indent: 0.8em;
+    font-size: large;
+    color: black;
+    width: 95%;
+    font-family: Courier Prime;
+    background-color: #E8F1F2;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.2em;
+
+}
+p{
+    text-align: justify;
+    font-family: Courier Prime;
+    font-size: large;
+    text-indent: 0.8em;
+    padding: 0.2em;
+
+}
+
+div.polaroid{
+    display: block;
+    text-align: center;   
+    background-color: white;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2), 0px 6px 20px 0px rgba(0,0,0,0.19);
+    margin-bottom: 10px;
+
+}
+div.polaroidif{
+    display: block;
+    width: 700px;
+    
+    text-align: center;   
+    background-color: white;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2), 0px 6px 20px 0px rgba(0,0,0,0.19);
+    margin-bottom: 25px;
+}
+div.polaroid1{
+    display: block;
+    text-align: center;   
+    width: auto;
+    margin-left: 2em;
+     background-color: white;
+     box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2), 0px 6px 20px 0px rgba(0,0,0,0.19);
+     margin-bottom: 25px;  
+ }
+ 
+ div.polaroidsunshine{
+    display: block;
+    text-align: center;   
+    width: auto;
+     background-color: white;
+     box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2), 0px 6px 20px 0px rgba(0,0,0,0.19);
+     margin-bottom: 25px;  
+ }
+ div.polaroid__harley{
+    display: block;
+    width: auto;
+    text-align: center;   
+    background-color: white;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2), 0px 6px 20px 0px rgba(0,0,0,0.19);
+    margin-bottom: 20px;
+ }
+
+div.container{
+    text-align: center;
+    padding: 10px 20px;
+    text-indent:0px;
+}
+div.container1{
+    text-align: center;
+    text-indent:0px;
+    padding: 0px;
+}
+.container>p{
+    
+    text-align: center;
+}
+.container1>p{
+    text-align: center;
+    text-indent: 0%;
+    font-size: medium;
+}
+#fotosCentrais{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    
+   
+}
+#imagenssunshine{
+    margin-left: 15px;
+}
+/*modal praticado*/
+#fundo, #fundo1,#fundo2 {
+    opacity: 0.4;
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 98;
+    top: 0;
+    left: 0;
+    display: none;
+  }
+  
+  #modal, #modal1,#modal2 {
+    width: 300px;
+    height: max-content;
+    left: 50%;
+    top: 50%;
+    margin: -75px 0 0 -75px;
+    position: fixed;
+    background-color: #fff;
+    border-radius: 1.2em;
+    z-index: 99;
+    display: none;
+  }
+  a.fechar:link,a.abrir:link{
+      text-decoration: none;
+      color: #000;
+      padding: 0.1em;
+  }
+  a.fechar:link{
+      padding: 1em;
+      text-align: center;
+  }
+  #backgroundmodal{
+    font-size: x-large;
+    font-family: Courier Prime;
+    background-color: #E8F1F2;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2), 0px 6px 20px 0px rgba(0,0,0,0.19);
+
+        width: 250px;
+      height: 100px;
+      text-align: center;
+      border-radius: 0.2em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    margin-bottom: 1em;
+  }
+
+  #modais{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+  }
+  a.fechar:visited,a.abrir:visited{
+    text-decoration: none;
+    color: #000;
+    padding: 0.1em;
+}
+  .pmodal{
+      font-size: medium;
+      padding: 1em;
+  }
+
+@media screen and (max-width: 768px)
+{   
+    body{
+        margin: 0 0 0 0;
+    }
+    header{
+        width: 100%;
+		
+    }
+    header>div{
+        width: 100%;
+    }
+    header>nav{
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        
+    }
+    header>nav>a:link,header>nav>a:visited{
+        margin-top: 5px;
+        width: 35%;
+		text-align: center;
+        border-bottom: 
+        1px solid black;
+	}
+    header>div>h1{
+        font-size: 2.1em;
+        text-align: center;
+    }
+    section{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+       
+
+    }
+    #imagenssunshine{
+        margin-top: 1em;
+        margin-left: 0px;
+        width: 100%;
+    }    
+    #tituloTexto{
+        width: 100%;
+    }
+    
+    #dir{
+        width: 100%;
+        
+    }
+    #fotosCentrais{
+        
+        flex-wrap: wrap; 
+       
+    }
+    #modal,#modal1, #modal2{
+        width: 250px;
+        height: fit-content;
+        left: 37%;
+        top: 50%;
+        margin: -75px 0 0 -75px; 
+    }
+  
+    .imgcorpo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto ;
+        text-align: center;
+        width: 320px;
+        max-height: 500px;
+        border-radius: 4px;
+       
+    }
+    .imgif{
+        width:330px;
+        border-radius: 4px;
+       
+        max-height: 30em;
+    
+    }
+    .imggl{
+        width: 310px;
+    }
+        
+    
+    div.polaroid{
+        width: 340px;
+    }
+    
+    #esq{
+        width: 100%;
+    }
+    #falas{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: row  ;
+        text-indent: 0.5em;
+        text-align: justify;
+        width: 90%;
+    
+    }
+        #imagensrelatos{
+            margin-top: 1em;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            }
+            #esq>p{
+        
+                font-size: medium;
+            }
+            h2.detail{
+                width:95%;
+
+                font-size: large;
+
+            }
+            .imgsunshine{
+                width: 254px;
+
+            }     
+            div.polaroidsunshine{
+                display: block;
+                text-align: center;   
+                
+
+            }   
+        #backgroundmodal{
+            flex-direction: column;
+        }
+
+ } 
+ @media screen and (min-width: 769px) and (max-width:1100px)
+{  
+    header>div{
+        width: 100%;
+    }
+    header>nav{
+        width: 100%;
+    }
+    .imgestarso{
+        width: 320px;
+        height: 490px;
+    }
+    
+    
+    #esq>p{
+        
+        font-size: medium;
+    }
+    /* .imgtees{
+        width: ;
+        height: ;
+    }
+    .imgcorpo{
+        pwidth: ;
+        height: ;
+    }
+    .
+    .imgif{
+        width: ;
+        height: ;
+    }
+    .imggl{
+        width: ;
+        height: ;
+    
+    }
+    .imgh{
+        width: ;
+        height: ;
+    } */
+
+
+
+
+
+
+
+
+
+
+}

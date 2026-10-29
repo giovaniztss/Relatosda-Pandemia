@@ -1,0 +1,224 @@
+@font-face {
+	font-family: 'Architects Daughter', cursive;
+	font-family: 'Baloo 2', cursive;
+	font-family: 'Cormorant', serif;
+	font-family: 'Courier Prime', monospace;
+	font-family: 'Special Elite', cursive;
+		src: url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Baloo+2:wght@500&family=Cormorant:ital,wght@1,300&family=Courier+Prime:ital@1&family=Special+Elite&display=swap');
+}
+body{
+    background-color: #f9cb9c;
+	margin: 0 2em 0 2em ;
+    padding: 0px;
+  
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 10em;
+    font-family: Special Elite;
+	background-color: #E8F1F2;
+    border-radius: 0 0 1em 1em;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2), 0px 6px 20px 0px rgba(0,0,0,0.19);
+
+}
+header>div{
+    width: 100%;
+}
+header>div>h1{
+    font-size: 3.5em;
+    text-align: center;
+}
+header>nav>a:link,header>nav>a:visited{
+	font-size: medium;
+    text-decoration: none;
+    color: #006494;
+    padding: 0.1em;
+	 
+}
+header>nav>a:hover{
+    text-decoration: underline;
+    color: #006494;
+}
+header>nav{
+    width: 100%;
+	justify-content: space-around;
+	
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	text-decoration: none;
+}
+h2{
+	font-size: x-large;
+	font-family: Courier Prime;
+	text-align: center;
+	font-family: Courier Prime;
+    background-color: #E8F1F2;
+    border-radius: 0.2em;
+
+    background-color:  #E8F1F2;
+	border: 0.4em solid #E8F1F2;
+}
+.first>h3{
+	text-align: center;
+	font-size: 1.2em;
+    border-radius: 1.2em 1.2em 1.2em 1.2em;
+	background-color: #D5D5D5;
+	border: 0.4em solid #D5D5D5;
+}
+.first>h4{
+	margin-top: 0em;
+	text-align: center;
+	font-size: medium;
+    background-color: #D5D5D5;
+	border: 0.4em solid #D5D5D5;
+    border-radius: 1.2em 1.2em 1.2em 1.2em;
+}
+/* #4f4d5a */
+p{
+	color: black;
+	font-size: large;
+	text-align: justify;
+	text-indent: 0.5em;
+	padding: 1em;
+    /* width: 75%; */
+    font-family: Courier Prime;
+
+    background-color: #E8F1F2;
+
+	border-radius: 1.2em 1.2em 1.2em 1.2em;
+
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2), 0px 6px 20px 0px rgba(0,0,0,0.19);
+
+}
+.indexlinks{
+    text-decoration: none;
+    background-color: #E8F1F2;
+    border: 0.2em solid #E8F1F2;
+    color: black;
+    font-family: Special Elite;
+}
+article{
+    display: flex;
+    align-items:center;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+}
+section{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 1em;
+
+}
+#texto{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	margin-top: 15px;
+    width: 60%;
+}
+.first>h1{
+	font-family: Special Elite;
+	font-size: 4.3em;
+    background-color: #D5D5D5;
+	border: 0.4em solid #D5D5D5;
+    border-radius: 1.2em 1.2em 1.2em 1.2em;
+    margin-top: 1px;
+    margin-bottom: 1px;
+	text-align: center;
+
+	
+}
+
+#introducao{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px)
+{   
+	.links{
+		margin-top: -180px;
+	}
+	.first{
+		margin-top: 0px;
+		visibility:collapse;
+	}
+	.first>h1{
+		font-family: Special Elite;
+		font-size: 2em;
+	}
+	#introducao{
+		width: 100%;
+	}
+    body{
+		background-image: none;
+		background-color: #4f4d5a;
+        margin: 0 0 0 0;
+    }
+    header{
+        width: 100%;
+		visibility: visible;
+		
+    }
+    header>div{
+        width: 100%;
+    }
+	header>nav{
+        
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        
+    }
+	header>nav>a:link,header>nav>a:visited{
+        margin-top: 5px;
+        width: 50%;
+		text-align: center;
+        border-bottom: 
+        1px solid black;
+	}
+    header>div>h1{
+        font-size: 2.1em;
+        text-align: center;
+    }
+    section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+	h1{
+		font-size: 2em;
+	}
+	#texto{
+		margin-top: 10px;
+		width: 100%;
+	}
+
+ } 
+ @media screen and (min-width: 769px) and (max-width:1100px)
+{  
+    header>div{
+        width: 100%;
+    }
+    header>nav{
+        width: 100%;
+    }
+}

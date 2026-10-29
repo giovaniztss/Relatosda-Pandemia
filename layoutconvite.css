@@ -1,0 +1,384 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+    border: 0px;
+}
+body{	
+    background-color: #f9cb9c;
+	margin: 0 2em 0 2em ;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+  
+}
+header{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: Special Elite;
+	background-color: #E8F1F2;
+    border-radius:0 0 1em 1em;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2), 0px 6px 20px 0px rgba(0,0,0,0.19);
+
+}
+header>div{
+    width: 100%;
+}
+header>div>h1{
+    font-size: 3.5em;
+    text-align: center;
+   
+}
+header>nav>a:link,header>nav>a:visited{
+	font-size: medium;
+    text-decoration: none;
+    color: #006494;
+    padding: 0.1em;
+    
+	 
+}
+header>nav>a:hover{
+    text-decoration: underline;
+    color: #006494;
+}
+header>nav{
+    width: 100%;
+	justify-content: space-around;
+	
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	text-decoration: none;
+}
+article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+section.thelinks{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+div.letsgo{
+    margin-top: 20px;
+}
+#local{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#introducao>h2{
+    font-size: 1.5em;
+    text-indent: 0em;
+}
+#texto{
+    font-size: large;
+    margin-top: 0.5em;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.foto{
+    width:25%;
+    display: block;
+    margin: auto;
+}
+.convite{
+    width: 60%;
+    display: flex;
+    text-align: center;
+    flex-direction: row; 
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;  
+}
+
+h2{
+    font-family: Special Elite;
+
+}
+p{
+    margin-top: 0.5em;
+    font-family: Courier Prime;
+    width: 75%;
+
+}
+
+h2{
+    font-size: 2.5em;
+}
+h3{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace ;
+    width: 80%;
+    
+}
+.texto_termo{
+    width: 100%;
+    /* height: 400px; */
+    font-size: 2em;
+    text-align: justify;
+    text-indent: 0.8em;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.texto_termo>p{
+   
+}
+.indexlinks{
+    text-decoration: none;
+    background-color: #E8F1F2;
+    border: 0.2em solid #E8F1F2;
+    color: black;
+    font-family: Special Elite;
+}
+.termo{
+    width: 100%;
+    margin-bottom: 1em;
+}
+.linknotexto{
+    text-decoration: none;
+    color: red;
+}
+.texto_convite{
+    
+    margin-bottom: 1em;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.texto_convite>p{
+    font-size: large;
+    text-align: justify;
+    text-indent: 0.8em;
+    width: 90%;
+
+}
+.polaroid{
+background-color: #E8F1F2;
+width: min-content;
+}
+.nomeExposicao{
+    font-family: Special Elite;
+	font-size: 4.3em;
+    text-align: center;
+}
+.linkApresentacao{
+    text-decoration: none;
+    font-size: 3em;
+    color: black;
+    font-family: Special Elite;
+    margin-top: 35px;
+
+}
+.linkApresentacao:hover{
+    text-decoration: underline;
+}
+.fotoConvite{
+    width: 300px;
+    height: 500px;
+    padding: 1em;
+}
+
+#fundo {
+    opacity: 0.4;
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 98;
+    top: 0;
+    left: 0;
+    display: none;
+  }
+  
+  #modal,#modal1 {
+    width: 350px;
+    height: fit-content;
+    left: 50%;
+    top: 50%;
+    margin: -75px 0 0 -75px;
+    position: fixed;
+    background-color: #fff;
+    border-radius: 1.2em;
+    z-index: 99;
+    display: none;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2), 0px 6px 20px 0px rgba(0,0,0,0.19);
+    text-align: center;
+
+  }
+  a.fechar:link,a.abrir:link{
+      text-decoration: none;
+      color: #000;
+      padding: 0.1em;
+  }
+  .letsgo{
+    text-decoration: none;
+    font-size: large;
+    font-size: larger;
+    background-color: #E8F1F2;
+    border: 0.2em solid #E8F1F2;
+    color: black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace; 
+  }
+ */
+
+  a.fechar:link{
+      font-family: 'Courier Prime';
+      padding: 1em;
+      margin-left: 10px;
+      text-align: start;
+      font-size: medium;
+      padding: 1em;
+      width: 100%;
+  }
+ 
+  a.fechar:visited,a.abrir:visited{
+    text-decoration: none;
+    color: #000;
+    padding: 0.1em;
+}
+.pmodal{
+    font-size: medium;
+    text-align: justify;
+    text-indent: 0.8em;
+    padding: 1em;
+    width: 100%;
+}
+.convite>#local>h3{
+font-size: medium;
+}
+
+@media screen and (max-width: 600px)
+{   
+    body{
+        margin: 0 0 0 0;
+    }
+    header{
+        width: 100%;
+		
+    }
+    header>div{
+        width: 100%;
+    }
+    header>nav{
+        
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        
+    }
+	header>nav>a:link,header>nav>a:visited{
+        margin-top: 5px;
+        width: 35%;
+		text-align: center;
+        border-bottom: 
+        1px solid black;
+	}
+    header>div>h1{
+        font-size: 2.1em;
+        text-align: center;
+    }
+    article{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 1em;
+        margin-top: 0.5em;
+    }
+    .foto{
+        width: 100%;
+display: none;    }
+    .convite{
+        margin-top: 2em;
+        width: 100%;
+    }
+    .texto_convite>p{
+        font-size: medium;
+    }
+    .convite>#local>h3{
+        font-size: medium;
+        width: 90%;
+    }
+    .convite>h2{
+        font-size: 2em;
+    }
+    .nomeExposicao{
+        font-family: Special Elite;
+        font-size: 3.5em;
+        text-align: center;
+        
+    }
+    .linkApresentacao{
+        font-size: 2.5em;
+
+    
+    }
+    #fundo {
+        opacity: 0.4;
+        background-color: #000;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+    }
+    #modal {
+        width: 250px;
+        height: fit-content;
+        left: 37%;
+        top: 50%;
+        margin: -75px 0 0 -75px; 
+    }
+    #introducao>h2{
+        font-size: x-large;
+    }
+    #texto{
+        font-size: medium;
+
+    }
+    
+
+
+}
+@media screen and (min-width:601px) and (max-width: 955px)
+{  
+  .foto{
+        width: 100%;
+        display: none;   
+     }
+     .convite{
+         width: 100%;
+     }
+     #modal {
+        width: 250px;
+        height: 300px;
+        left:25%;
+        top: 50%;
+        margin: -75px 0 0 -75px; 
+    }
+  }

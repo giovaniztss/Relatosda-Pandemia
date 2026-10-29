@@ -1,0 +1,239 @@
+@font-face {
+	font-family: 'Architects Daughter', cursive;
+	font-family: 'Baloo 2', cursive;
+	font-family: 'Cormorant', serif;
+	font-family: 'Courier Prime', monospace;
+	font-family: 'Special Elite', cursive;
+		src: url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Baloo+2:wght@500&family=Cormorant:ital,wght@1,300&family=Courier+Prime:ital@1&family=Special+Elite&display=swap');
+}*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+body{	
+    background-color: #f9cb9c;
+	margin: 0 2em 0 2em ;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* align-items: flex-start;*/
+    justify-content: center;
+   
+}
+header{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: Special Elite;
+	background-color: #E8F1F2;
+    border-radius:0 0 1em 1em;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2), 0px 6px 20px 0px rgba(0,0,0,0.19);
+
+}
+header>div{
+    width: 100%;
+}
+header>div>h1{
+    font-size: 3.5em;
+    text-align: center;
+   
+}
+header>nav>a:link,header>nav>a:visited{
+	font-size: medium;
+    text-decoration: none;
+    color: #006494;
+    padding: 0.1em;
+    
+	 
+}
+.reflink{   
+    word-break: break-all;
+     text-decoration: underline;
+ color: black;
+}
+header>nav>a:hover{
+    text-decoration: underline;
+    color: #006494;
+}
+header>nav{
+    width: 100%;
+	justify-content: space-around;
+	
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	text-decoration: none;
+}
+footer>p>a:link{
+    text-decoration: none;
+    color: rgb(56, 117, 167);
+}
+footer>p{
+    width: 100% ;
+    text-indent: 0px;
+}
+footer>div{
+    width: 100% ;
+}
+footer>p{
+    text-align: center;
+    font-family: Courier Prime;
+    font-size: large;
+    padding: 0.2em;
+    text-align: center;
+    font-size: medium       ;
+}
+#esq{
+    margin-top: 1em;
+    width: 75%;
+	background-color: #E8F1F2;
+	min-height: 25em;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	flex-wrap:wrap;
+	border-radius: 1.2em 1.2em 1.2em 1.2em;
+    padding: 1em;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2), 0px 6px 20px 0px rgba(0,0,0,0.19);
+}
+footer{
+    width: 100%;
+    background-color: #D5D5D5;
+    display: flex;
+    align-items:center;
+    text-align: center;
+    justify-content:space-around;
+    flex-direction: column;
+	border-radius: 1.2em 1.2em 0 0;
+    
+}
+#sectii{
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+.indexlinks{
+    text-decoration: none;
+    background-color: #E8F1F2;
+    border: 0.2em solid #E8F1F2;
+    color: black;
+    font-family: Special Elite;
+    margin-left: 5px;
+}
+#osrelatos{
+    display:flex;
+  margin-bottom: 1em;
+}
+#avatar{
+    border-radius: 50%;
+    width:5em;
+    height: 5em;
+}
+h2{
+	font-family: Special Elite;
+	font-size: medium;
+    padding: 1em;;
+
+}
+#dir{
+    
+    padding: 1em;
+	min-height: 25em;
+    text-align: justify;
+    justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	
+}
+p{
+    text-align: justify;
+	font-size: medium; 
+	font-family: Courier Prime;
+    font-size: large;
+    color: black;   
+    width: 75%;
+}
+article{
+    text-align: center;
+    justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+    margin-bottom: 2em;
+}
+.identar{
+    text-indent: 0.8em;
+}
+span{
+    font-weight: bold;
+
+}
+@media screen and (max-width: 768px){   
+    body{
+        margin: 0 0 0 0;
+    }
+    header{
+        width: 100%;
+		
+		
+    }
+    header>div{
+        width: 100%;
+    }
+    header>nav{
+        
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        
+    }
+	header>nav>a:link,header>nav>a:visited{
+        margin-top: 5px;
+        width: 35%;
+		text-align: center;
+        border-bottom: 
+        1px solid black;
+	}
+    header>div>h1{
+        font-size: 2.1em;
+        text-align: center;
+    }
+	p{
+		width: 95%;
+	}
+	#esq{
+		width: 85%;
+	}
+}
+@media screen and (min-width: 769px) and (max-width:1100px){  
+    header>div{
+        width: 100%;
+    }
+    header>nav{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
